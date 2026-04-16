@@ -2,7 +2,7 @@
 // CONFIGURAÇÃO DA API
 // ==========================================
 // A API_KEY será substituída pelo Vite durante o build
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = process.env.GEMINI_API_KEY || '';
 
 // ==========================================
 // ELEMENTOS DO DOM
